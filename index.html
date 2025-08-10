@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>TO-DO APP</title>
+</head>
+
+<body>
+    <main class="main">
+        <h1>To-do list</h1>
+
+        <div class="list-container">
+            <ul class="all-lists">
+                <li class="list">
+                    <input type="checkbox" id="done1" name="check" />
+                    <p>test</p>
+                    <button class="del-btn">+</button>
+                </li>
+                <li class="list">
+                    <input type="checkbox" id="done2" name="check" />
+                    <p>test</p>
+                    <button class="btn del-btn">+</button>
+                </li>
+            </ul>
+        </div>
+
+        <form class="input-container" id="task-form">
+            <input type="text" id="task-input" placeholder="Enter your task..." required />
+            <button class="btn add-btn" type="submit">+</button>
+        </form>
+        <button class="btn btn-toggle" id="toggle-mode">
+            ☀️ / 🌙
+        </button>
+    </main>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
