@@ -13,8 +13,8 @@
         <h1>To-do list</h1>
 
         <div class="list-container">
-            <ul class="all-lists">
-                <li class="list">
+            <ul id="all-lists" class="all-lists">
+                <!-- <li class="list">
                     <input type="checkbox" id="done1" name="check" />
                     <p>test</p>
                     <button class="del-btn">+</button>
@@ -23,11 +23,11 @@
                     <input type="checkbox" id="done2" name="check" />
                     <p>test</p>
                     <button class="btn del-btn">+</button>
-                </li>
+                </li> -->
             </ul>
         </div>
 
-        <form class="input-container" id="task-form">
+        <form class="input-container" onsubmit="addTask(event)">
             <input type="text" id="task-input" placeholder="Enter your task..." required />
             <button class="btn add-btn" type="submit">+</button>
         </form>
@@ -35,7 +35,12 @@
             ☀️ / 🌙
         </button>
     </main>
-    <script type="text/javascript" src="js/script.js"></script>
+    <footer>
+        <p>Made with love by Florence REGNIER-BECK</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
 </body>
 
 </html>
