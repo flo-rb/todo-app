@@ -2,8 +2,6 @@
 
 Voici une application simple et esthétique, développée en **HTML**, **CSS** et **JavaScript**.
 
-Réalisé par [Florence REGNIER-BECK](https://github.com/flo-rb)
-
 [Lien vers l'application](https://flo-rb.github.io/todo-app/)
 
 ## ✨ Fonctionnalités
@@ -39,3 +37,6 @@ Simple et efficace !
 **Voici l'interface de la todo-app, mêlant application fonctionnelle et esthétique**
 ![Vue d'ensemble](./images/todo-main-page.png)
 ![Fonctionnalités](./images/todo-testing.png)
+
+Réalisé par Florence REGNIER-BECK
+
